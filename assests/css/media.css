@@ -6,6 +6,14 @@
   .span-box {
     grid-column: 0;
   }
+
+  .span-box-1 {
+    grid-column: 3;
+  }
+
+  .grid-box {
+    max-width: 100%;
+  }
 }
 
 @media (max-width: 768px) {
@@ -16,10 +24,16 @@
   .span-box {
     grid-column: 1/1;
   }
+  .span-box-1 {
+    grid-column: 2;
+  }
 }
 
 @media (max-width: 640px) {
   .four-grid-box {
     grid-template-columns: repeat(1, 1fr);
+  }
+  .span-box-1 {
+    grid-column: 1;
   }
 }
