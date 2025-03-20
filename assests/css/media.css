@@ -7,6 +7,10 @@
     grid-column: 0;
   }
 
+  .box {
+    margin-left: 0;
+  }
+
   .grid-box {
     max-width: 100%;
   }
@@ -20,12 +24,10 @@
   .span-box {
     grid-column: 1/1;
   }
- 
 }
 
 @media (max-width: 640px) {
   .four-grid-box {
     grid-template-columns: repeat(1, 1fr);
   }
- 
 }

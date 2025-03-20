@@ -48,7 +48,7 @@ body {
   border-radius: 10px;
   width: 100%;
   max-width: 300px;
-  margin: 20px 0px;
+  margin: 10px 0px;
 }
 
 .main-title {
@@ -83,11 +83,10 @@ body {
 }
 
 .span-box {
-    grid-column:2/2;
-  }
+  grid-column: 2/2;
+  margin-left: -50%;
+}
 
-.d-flex{
-  display: flex;
-  justify-content: center;
-  gap: 30px;
+.box {
+  margin-left: -50%;
 }
