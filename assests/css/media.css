@@ -1,6 +1,6 @@
 @media (max-width: 1024px) {
   .grid-box {
-    max-width: 400px;
+    max-width: 30%;
   }
 
   .span-box {
@@ -10,12 +10,12 @@
   .box {
     margin-left: 0;
   }
-  .grid-box {
-    max-width: 900px;
-  }
 }
 
 @media (max-width: 768px) {
+  .grid-box {
+    max-width: 45%;
+  }
 }
 
 @media (max-width: 640px) {
