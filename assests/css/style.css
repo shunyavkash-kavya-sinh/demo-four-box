@@ -23,9 +23,10 @@ body {
 }
 
 .four-grid-box {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  display: flex;
+  flex-wrap: wrap;
   gap: 30px;
+  justify-content: center;
 }
 
 .img-box {
@@ -47,6 +48,7 @@ body {
   background-color: white;
   border-radius: 10px;
   width: 100%;
+  max-width:300px;
   margin: 10px 0px;
 }
 
@@ -82,7 +84,4 @@ body {
 }
 
 
-.box {
-  margin-left:calc(100% - 50%);
-}
 

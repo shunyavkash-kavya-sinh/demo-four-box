@@ -1,7 +1,6 @@
 @media (max-width: 1024px) {
-  .four-grid-box {
-    grid-template-columns: repeat(3, 1fr);
-   
+  .grid-box {
+    max-width: 400px;
   }
 
   .span-box {
@@ -11,21 +10,16 @@
   .box {
     margin-left: 0;
   }
-
   .grid-box {
-    max-width: 100%;
+    max-width: 900px;
   }
 }
 
 @media (max-width: 768px) {
-  .four-grid-box {
-    grid-template-columns: repeat(2, 1fr);
-  }
-
 }
 
 @media (max-width: 640px) {
-  .four-grid-box {
-    grid-template-columns: repeat(1, 1fr);
+  .grid-box {
+    max-width: 100%;
   }
 }
