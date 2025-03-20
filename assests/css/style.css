@@ -81,12 +81,8 @@ body {
   margin-bottom: 10px;
 }
 
-.span-box {
-  grid-column: 2/2;
-  margin-left: -50%;
-}
 
 .box {
-  margin-left:calc(50%);
+  margin-left:calc(100% - 50%);
 }
 
