@@ -79,3 +79,6 @@ body {
   margin-bottom: 10px;
 }
 
+.span-box {
+    grid-column:2/2;
+  }

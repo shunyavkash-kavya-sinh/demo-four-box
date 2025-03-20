@@ -2,11 +2,19 @@
   .four-grid-box {
     grid-template-columns: repeat(3, 1fr);
   }
+
+  .span-box {
+    grid-column: 0;
+  }
 }
 
 @media (max-width: 768px) {
   .four-grid-box {
     grid-template-columns: repeat(2, 1fr);
+  }
+
+  .span-box {
+    grid-column: 1/1;
   }
 }
 
