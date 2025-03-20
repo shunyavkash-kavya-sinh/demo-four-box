@@ -25,7 +25,7 @@ body {
 .four-grid-box {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  gap: 30px;
+  gap: 30px 0px;
 }
 
 .img-box {
@@ -88,5 +88,6 @@ body {
 }
 
 .box {
-  margin-left: -50%;
+  margin-left:calc(50%);
 }
+
