@@ -1,7 +1,7 @@
 @media (max-width: 1024px) {
   .four-grid-box {
     grid-template-columns: repeat(3, 1fr);
-     gap: 0px 30px;
+   
   }
 
   .span-box {
@@ -22,9 +22,6 @@
     grid-template-columns: repeat(2, 1fr);
   }
 
-  .span-box {
-    grid-column: 1/1;
-  }
 }
 
 @media (max-width: 640px) {
