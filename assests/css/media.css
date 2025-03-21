@@ -1,25 +1,15 @@
 @media (max-width: 1024px) {
-  .grid-box {
-    max-width: 30%;
-  }
-
-  .span-box {
-    grid-column: 0;
-  }
-
-  .box {
-    margin-left: 0;
+  .main-box{
+    max-width: 50%;
   }
 }
 
 @media (max-width: 768px) {
-  .grid-box {
-    max-width: 45%;
-  }
+ 
 }
 
 @media (max-width: 640px) {
-  .grid-box {
+  .main-box{
     max-width: 100%;
   }
 }
