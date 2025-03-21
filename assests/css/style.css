@@ -15,7 +15,6 @@ body {
   max-width: 1340px;
   margin: 0 auto;
   padding: 0 16px;
-
 }
 
 .main-gridbox {
@@ -41,7 +40,7 @@ body {
   object-fit: cover;
 }
 
-.main-box{
+.main-box {
   width: 100%;
   max-width: 25%;
   padding: 1rem;
@@ -75,7 +74,7 @@ body {
 }
 
 .img-boxtite {
-  font-size:18px;
+  font-size: 18px;
   margin-top: 10px;
   margin-bottom: 20px;
   text-align: center;
@@ -87,4 +86,28 @@ body {
   font-size: 16px;
   font-weight: 600;
   margin-bottom: 10px;
+}
+
+.main-sec-grid-box {
+  padding: 100px 0px;
+  background-color: black;
+}
+
+.sec-grid-box {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(300px, 1fr));  
+  gap: 20px;
+}
+
+.sec-box {
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-color: white;
+  border-radius: 10px;
+}
+
+.sec-grid-wrap{
+  overflow-x: auto;
 }
